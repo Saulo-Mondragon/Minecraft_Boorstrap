@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url("https://cdn.pixabay.com/photo/2013/07/12/19/25/minecraft-154749_960_720.png") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+	font-family: "segoe UI";
+}
+h1{
+	margin-bottom: 5px;
+	color: #99FF33;
+	text-align: center;
+	background: url("https://thumbs.dreamstime.com/t/fondo-geom%C3%A9trico-de-la-bandera-del-papel-pintado-arte-pixel-juego-minecraft-textura-cubo-tierra-e-hierba-con-para-sus-proyectos-152699354.jpg");
+	column-span: all;
+	font-size: 800%;
+}
+h2{
+	color: #0789c9;
+	font-size: 100%;
+}
+h3{
+	color: violet;
+	text-align: center;
+	column-span:all;
+}
+h4{
+	text-align: center;
+}
+footer{
+	column-span: all;
+}
+p{
+	margin-bottom: 3px;
+}
+img{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	column-span: auto;
+}
+main{
+	background-color: #ffffff;
+	padding: 20px;
+	margin: 40px auto;
+	max-width: 1200px ;
+	display: block;
+	column-count:4;
+	text-align: justify;
+	column-gap:40px;
+	column.rule: 40px solid #bbbbbb;
+	column-width:20px;
+}
